@@ -4,13 +4,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import ru.itpark.wallpapercalc.service.WallpapercalcService;
+import ru.itpark.wallpapercalc.service.WallpaperCalcService;
 
 @Controller
-public class WallpapercalcController {
-    private WallpapercalcService service;
+public class WallpaperCalcController {
+    private WallpaperCalcService service;
 
-    public WallpapercalcController(WallpapercalcService service) {
+    public WallpaperCalcController(WallpaperCalcService service) {
         this.service = service;
     }
 
